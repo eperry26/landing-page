@@ -65,7 +65,7 @@ body {
     color: E5E7EB;
 }
 
-.placeholder {
+/* .placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@ body {
     margin: 0;
     background-color: rgb(109, 118, 129);
     color: white;
-}
+} */
 
 button {
     background-color: #3882F6;
@@ -157,6 +157,9 @@ button {
 
 .section-4 {
     padding: 80px 300px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .content-3 {
